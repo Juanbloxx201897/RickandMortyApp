@@ -1,0 +1,20 @@
+/* Ajustes de las tarjetas */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Margen adicional entre tarjetas. */
+.card-body {
+    text-align: center;
+}
